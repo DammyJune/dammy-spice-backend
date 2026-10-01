@@ -103,7 +103,7 @@ class InitializePaymentView(APIView):
             "reference": payment.reference,
 
             "callback_url": (
-                "http://127.0.0.1:8000/"
+                "https://dammy-spice-backend.onrender.com"
                 "api/payments/callback/"
             ),
 
